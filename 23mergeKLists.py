@@ -35,6 +35,7 @@ class Solution:
             while l:
                 value.append(l.val)
                 l = l.next
+
         res = ListNode()
         merge = res
         for v in sorted(value):
