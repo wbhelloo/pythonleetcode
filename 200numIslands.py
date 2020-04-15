@@ -1,6 +1,6 @@
 from typing import List
 
-
+#消灭岛的思想
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not grid: return 0
